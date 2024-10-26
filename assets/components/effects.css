@@ -1,0 +1,51 @@
+.highlighter1{
+    
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+}
+.highlighter {
+    text-align: left;
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+}
+.card-hover {
+    text-align: center;
+    background-color:#fcf7ff;
+    border-style: solid;
+    color: #780000;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    padding: 20px;    
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; /* Transition effect for the box-shadow */
+}
+
+/* Shadow effect on hover */
+.card-hover:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8); /* Add shadow effect */
+ 
+}
+.port-folio-heading{
+    color: #780000 ;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.port-folio-heading-sub{
+    color: #C1121F;
+    font-size: 15%;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+.port-folio-description {
+    text-align: left;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 16px;
+}

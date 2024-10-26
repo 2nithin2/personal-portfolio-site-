@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.landingpage-hero-container{
+    margin: 0;
+    padding: 15px;
+    background-image: linear-gradient(#780000,black);
+
+}
+.landingpage-hero-card{
+    background-color: white;
+    font-size: medium;
+    margin-top: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+.landingpage-hero-description {
+    color: #183b56;
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 1.1rem;
+}
+
+.landing-hero-section-bg-image{
+    margin-top: auto;
+    width:250px;
+    margin: 8px;
+    max-width:100%;
+    border-radius: 25px;
+}
+.landingpage-hero-heading {
+    color: #780000 ;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+   
+    font-size: 2 rem;;
+    
+}

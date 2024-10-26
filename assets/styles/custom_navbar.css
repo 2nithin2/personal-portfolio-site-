@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.navbar_main_logo {
+    width: 150px;
+    text-align: left;
+    border-radius: 100px;
+    margin-right: auto;      
+}
+.navbar-cutom{
+    font-family: "roboto"!important;
+    background-color: #780000;
+    
+}
+.nav-options {
+    color: #323f4b;
+    font-size:medium;
+    font-weight: 800;
+    font-family: "Roboto";
+}
+/* Style for the navigation items with IDs navItem1 to navItem9 */
+#navItem1,
+#navItem2,
+#navItem3,
+#navItem4,
+#navItem5,
+#navItem6,
+#navItem7,
+#navItem8,
+#navItem9 {
+    color:white;
+   
+    position: relative; /* Ensure positioning context */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Style for the underline */
+#navItem1::after,
+#navItem2::after,
+#navItem3::after,
+#navItem4::after,
+#navItem5::after,
+#navItem6::after,
+#navItem7::after,
+#navItem8::after,
+#navItem9::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Position the underline just below the text */
+    left: 0;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: transparent;
+    transition: width 0.3s ease; /* Transition effect for the underline width */
+    transition: width 0.3s ease, transform 0.3s ease
+}
+
+/* Animation for the underline on hover */
+#navItem1:hover::after,
+#navItem2:hover::after,
+#navItem3:hover::after,
+#navItem4:hover::after,
+#navItem5:hover::after,
+#navItem6:hover::after,
+#navItem7:hover::after,
+#navItem8:hover::after,
+#navItem9:hover::after {
+    width: 100%; /* Expand the underline to full width */
+    background-color: #d0b200; /* Yellow color */
+}
+#navItem1:hover,
+#navItem2:hover,
+#navItem3:hover,
+#navItem4:hover,
+#navItem5:hover,
+#navItem6:hover,
+#navItem7:hover,
+#navItem8:hover,
+#navItem9:hover {
+    transform: scale(1.1); /* Zoom effect: increase scale by 10% */
+}
+nav ul li a.active{
+    background-color: #e5eaf4;
+    color: bl;
+}
